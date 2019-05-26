@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="game.MainMenu">
+  <grid id="27dc6" binding="mainMenu" layout-manager="GridLayoutManager" row-count="6" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="50" vgap="50">
+    <margin top="50" left="50" bottom="50" right="50"/>
+    <constraints>
+      <xy x="486" y="241" width="927" height="2694"/>
+    </constraints>
+    <properties>
+      <background color="-11053225"/>
+      <font name="Calibri Light" size="36" style="0"/>
+      <foreground color="-11053225"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="402b0" class="javax.swing.JButton" binding="exitButton" default-binding="true">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15856356"/>
+          <foreground color="-1"/>
+          <text value="Exit"/>
+        </properties>
+      </component>
+      <component id="41a6c" class="javax.swing.JButton" binding="controlsButton" default-binding="true">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15856356"/>
+          <enabled value="true"/>
+          <foreground color="-1"/>
+          <text value="Controls"/>
+        </properties>
+      </component>
+      <component id="a2fee" class="javax.swing.JButton" binding="startButton">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15856356"/>
+          <foreground color="-1"/>
+          <hideActionText value="false"/>
+          <horizontalTextPosition value="11"/>
+          <text value="Start"/>
+        </properties>
+      </component>
+      <component id="66f44" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1247233"/>
+          <enabled value="true"/>
+          <font name="Microsoft JhengHei" size="25" style="1"/>
+          <foreground color="-3750202"/>
+          <horizontalTextPosition value="0"/>
+          <text value="GRAVITY TOWER"/>
+        </properties>
+      </component>
+      <vspacer id="60ea5">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="2" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="c974d" class="javax.swing.JButton" binding="loadButton">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15856356"/>
+          <enabled value="true"/>
+          <foreground color="-1"/>
+          <text value="Load"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
